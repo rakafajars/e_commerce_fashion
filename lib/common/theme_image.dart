@@ -18,3 +18,5 @@ const String icTiffanyCo = "$urlIcon/ic_tiffany_co.svg";
 const String banner = "$urlImage/banner.png";
 const String icProduct = "$urlImage/ic_product.png";
 const String icForwardArrow = "$urlIcon/ic_forward_arrow.png";
+const String bannerCollection1 = "$urlImage/banner_collection1.png";
+const String bannerCollection2 = "$urlImage/banner_collection2.png";

@@ -3,8 +3,12 @@ import 'package:e_commerce_fashion/common/theme_fonts.dart';
 import 'package:e_commerce_fashion/common/theme_image.dart';
 import 'package:e_commerce_fashion/presentation/pages/home/widget/arrival_widget.dart';
 import 'package:e_commerce_fashion/presentation/pages/home/widget/brand_widget.dart';
+import 'package:e_commerce_fashion/presentation/pages/home/widget/collection_widget.dart';
+import 'package:e_commerce_fashion/presentation/pages/home/widget/info_fashion_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
+import 'widget/trending_widget.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -26,6 +30,7 @@ class _HomePageState extends State<HomePage> {
     return DefaultTabController(
       length: _nameTabBar.length,
       child: Scaffold(
+        backgroundColor: Colors.white,
         appBar: AppBar(
           backgroundColor: backgroundAppBarColor,
           elevation: 0.0,
@@ -124,11 +129,23 @@ class _HomePageState extends State<HomePage> {
                   icLine,
                 ),
                 const SizedBox(height: 47),
+                const CollectionWidget(),
+                const SizedBox(height: 72),
                 Text(
-                  'COLLECTIONS',
+                  'Just for You',
                   style: tenorSansStyle.copyWith(
-                      fontSize: 18, color: titleActiveColor, letterSpacing: 4),
-                )
+                    fontSize: 18,
+                    letterSpacing: 4,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                SvgPicture.asset(
+                  icLine,
+                ),
+                const SizedBox(height: 44),
+                TrendingWidget(),
+                const SizedBox(height: 22),
+                InfoFashionWidget(),
               ],
             ),
           ),
