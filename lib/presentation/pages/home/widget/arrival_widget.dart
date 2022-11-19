@@ -40,7 +40,7 @@ class ArrivalTabBarView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 570,
+      height: 650,
       child: TabBarView(
         children: [
           GridView.builder(

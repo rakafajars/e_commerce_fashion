@@ -27,3 +27,10 @@ const String icProduct = "$urlImage/ic_product.png";
 const String icForwardArrow = "$urlIcon/ic_forward_arrow.png";
 const String bannerCollection1 = "$urlImage/banner_collection1.png";
 const String bannerCollection2 = "$urlImage/banner_collection2.png";
+
+// follow us
+const String icInstagram = "$urlImage/ic_instagram.png";
+const String icPeopleIg = "$urlImage/ic_people_ig.png";
+const String icTwitter = "$urlIcon/ic_twitter.svg";
+const String icYoutube = "$urlIcon/ic_youtube.svg";
+const String icInstagramBlack = "$urlIcon/ic_instagram.svg";

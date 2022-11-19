@@ -13,3 +13,4 @@ const Color strokeColor = Color(0xFFD9DBE9);
 const Color offWhiteColor = Color(0xFFFCFCFC);
 const Color backgroundAppBarColor = Color(0xFFE7EAEF);
 const Color greyColor = Color(0xFFF2F2F2);
+const Color greyColor1 = Color(0xFFC4C4C4);
