@@ -15,6 +15,13 @@ const String icGucci = "$urlIcon/ic_gucci.svg";
 const String icPrada = "$urlIcon/ic_prada.svg";
 const String icTiffanyCo = "$urlIcon/ic_tiffany_co.svg";
 
+// info
+const String icTornado = '$urlIcon/ic_tornado.svg';
+const String icInfo1 = '$urlIcon/ic_info1.png';
+const String icInfo2 = '$urlIcon/ic_info2.png';
+const String icInfo3 = '$urlIcon/ic_info3.png';
+const String icInfo4 = '$urlIcon/ic_info4.png';
+
 const String banner = "$urlImage/banner.png";
 const String icProduct = "$urlImage/ic_product.png";
 const String icForwardArrow = "$urlIcon/ic_forward_arrow.png";

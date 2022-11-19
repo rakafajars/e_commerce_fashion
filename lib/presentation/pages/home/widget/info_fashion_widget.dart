@@ -47,6 +47,12 @@ class InfoFashionWidget extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+                    Image.asset(
+                      icInfo1,
+                      width: 49.77,
+                      height: 34.91,
+                    ),
+                    const SizedBox(height: 12),
                     Text(
                       'Fast shipping. Free on orders over \$25.',
                       style: tenorSansStyle.copyWith(
@@ -62,6 +68,12 @@ class InfoFashionWidget extends StatelessWidget {
               Expanded(
                 child: Column(
                   children: [
+                    Image.asset(
+                      icInfo2,
+                      width: 52.45,
+                      height: 36.8,
+                    ),
+                    const SizedBox(height: 12),
                     Text(
                       'Sustainable process from start to finish.',
                       style: tenorSansStyle.copyWith(
@@ -85,6 +97,12 @@ class InfoFashionWidget extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+                    Image.asset(
+                      icInfo3,
+                      width: 54.35,
+                      height: 38.13,
+                    ),
+                    const SizedBox(height: 12),
                     Text(
                       'Unique designs and high-quality materials.',
                       style: tenorSansStyle.copyWith(
@@ -100,6 +118,12 @@ class InfoFashionWidget extends StatelessWidget {
               Expanded(
                 child: Column(
                   children: [
+                    Image.asset(
+                      icInfo4,
+                      width: 54.35,
+                      height: 38.13,
+                    ),
+                    const SizedBox(height: 12),
                     Text(
                       'Fast shipping. Free on orders over \$25.',
                       style: tenorSansStyle.copyWith(
@@ -113,6 +137,12 @@ class InfoFashionWidget extends StatelessWidget {
               ),
               const SizedBox(width: 16),
             ],
+          ),
+          const SizedBox(height: 34),
+          SvgPicture.asset(
+            icTornado,
+            height: 39.56,
+            width: 66.52,
           ),
         ],
       ),
