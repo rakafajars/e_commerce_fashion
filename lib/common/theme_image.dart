@@ -34,3 +34,6 @@ const String icPeopleIg = "$urlImage/ic_people_ig.png";
 const String icTwitter = "$urlIcon/ic_twitter.svg";
 const String icYoutube = "$urlIcon/ic_youtube.svg";
 const String icInstagramBlack = "$urlIcon/ic_instagram.svg";
+
+// just for you
+const String icJustForYou = "$urlImage/img_fashion_just_for_you.png";

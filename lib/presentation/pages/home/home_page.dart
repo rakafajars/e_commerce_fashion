@@ -6,6 +6,7 @@ import 'package:e_commerce_fashion/presentation/pages/home/widget/brand_widget.d
 import 'package:e_commerce_fashion/presentation/pages/home/widget/collection_widget.dart';
 import 'package:e_commerce_fashion/presentation/pages/home/widget/follow_use_widget.dart';
 import 'package:e_commerce_fashion/presentation/pages/home/widget/info_fashion_widget.dart';
+import 'package:e_commerce_fashion/presentation/pages/home/widget/just_for_you_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -142,6 +143,8 @@ class _HomePageState extends State<HomePage> {
                 SvgPicture.asset(
                   icLine,
                 ),
+                const SizedBox(height: 32),
+                const JustForYouWidget(),
                 const SizedBox(height: 44),
                 TrendingWidget(),
                 const SizedBox(height: 22),
